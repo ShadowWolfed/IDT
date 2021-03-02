@@ -1,0 +1,27 @@
+name: Kvarniy drill
+description: Fast.
+type: Drill
+size: 5
+health: 500
+drillTime: 200
+tier: 6
+drawRim: true
+consumes: {
+power: 2
+liquid: {
+liquid: slag
+amount: 0.1
+booster: true
+optional: true
+}}
+liquidBoostIntensity: 1.5
+hasLiquids: true
+liquidCapacity: 60
+rotateSpeed: 5
+requirements: [
+phase-alloy/200
+kvarniy-crystal/150
+kvarniy-core/50
+]
+research: blast-drill
+category: production

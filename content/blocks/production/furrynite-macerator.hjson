@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Furrynite macerator
+description: Heats and splits kvarniy crystals and phase alloy.
+health: 500
+itemCapacity: 10
+liquidCapacity: 0
+size: 4
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+consumes: {
+power: 16.666667
+items:{
+items:[
+kvarniy-crystal/3
+phase-alloy/1
+]}}
+requirements: [
+phase-alloy/200
+kvarniy/100
+kvarniy-crystal/50
+kvarniy-core/20
+]
+category: crafting
+research: alloy-smelter
+outputItem: furrynite/1

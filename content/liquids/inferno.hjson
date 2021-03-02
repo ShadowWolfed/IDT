@@ -1,0 +1,9 @@
+name: Inferno
+description: Very hot liquid
+temperature: 100
+flammability: 0
+heatCapacity: 0
+explosiveness: 0
+viscosity: 0
+color: "ffd700"
+research: slag

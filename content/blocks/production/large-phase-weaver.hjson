@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Large phase weaver
+description: Produces more phase fabric for less resources.
+health: 100
+itemCapacity: 20
+liquidCapacity: 60
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+power: 8.333334
+liquid: water/0.1
+items:{
+items:[
+thorium/4
+sand/8
+]}}
+requirements: [
+phase-alloy/50
+lead/120
+thorium/75
+silicon/130
+]
+drawer: DrawWeave
+category: crafting
+research: phase-weaver
+outputItem: phase-fabric/2
+ambientSound: techloop
+ambientSoundVolume: 0.1

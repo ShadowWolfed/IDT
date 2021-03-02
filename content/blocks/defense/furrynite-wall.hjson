@@ -1,0 +1,28 @@
+type: MendProjector
+name: Furrynite wall
+description: This wall is self-healing.
+size: 1
+health: 1750
+baseColor: 686B7C
+phaseColor: 686B7C
+range: 4
+reload: 30
+healPercent: 15
+phaseBoost: 15
+phaseRangeBoost: 16
+hasItems: true
+hasPower: false
+itemCapacity: 10
+useTime: 600
+consumes:{
+items: {
+booster: true
+optional: true
+items: [
+furrynite/1    	
+]}}
+requirements: [
+furrynite/6
+]
+category: defense
+research: kvarniy-wall

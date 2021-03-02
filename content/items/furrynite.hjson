@@ -1,0 +1,9 @@
+type: Item
+name: Furrynite
+description: A good ferromagnet.
+cost: 15
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+color: 686B7C
+research: surge-alloy

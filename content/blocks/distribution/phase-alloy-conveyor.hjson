@@ -1,0 +1,10 @@
+type: Conveyor
+name: Phase alloy conveyor
+description: Fast.
+health: 300
+requirements: [
+  phase-alloy/1
+]
+category: distribution
+speed: 0.2
+research: titanium-conveyor

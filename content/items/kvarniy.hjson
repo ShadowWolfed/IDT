@@ -1,0 +1,10 @@
+type: Item
+name: Kvarniy
+description: Ñonsists of a core and crystals.
+cost: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+color: CD00CD
+hardness: 6
+research: surge-alloy

@@ -1,0 +1,39 @@
+type: itemTurret
+name: Defender
+description: Chain gun.
+targetAir: true
+targetGround: true
+health: 5000
+size: 4
+inaccuracy: 5
+reloadTime: 5
+recoil: 5
+burstSpacing: 2.5
+alternate: true
+rotatespeed: 5
+shots: 2
+shotWidth: 3
+range: 240
+maxAmmo: 100
+ammoTypes: {
+blast-compound: {
+type: BasicBulletType
+damage: 40
+speed: 8
+lifetime: 30
+splashDamage: 30
+splashDamageRadius: 40
+pierce: false
+width: 10
+height: 15
+ammoMultiplier: 1
+}},
+requirements: [
+phase-alloy/250
+thorium/300
+graphite/350
+copper/1500
+]
+shootSound: shootBig
+category: turret
+research: fuse

@@ -1,0 +1,41 @@
+name: Phantom
+speed: 3
+flying: true
+health: 1000
+range: 160
+engineOffset: 10
+engineSize: 2
+rotateSpeed: 10
+targetAir: true
+research: mono
+weapons:[
+{
+name: phantom-laser
+x: 0
+y: 10
+shootY: -1
+reload: 60
+ejectEffect: none
+recoil: 0
+shots: 1
+shotDelay: 10
+inaccuracy: 0
+shootStatus: unmoving
+shootStatusDuration: 30
+firstShotDelay: 30
+shootSound: laser
+mirror: false
+bullet: {
+type: LaserBulletType
+damage: 150
+length: 160
+width: 10
+lifetime: 60
+largeHit: true
+shootEffect: none
+collidesTeam: false
+sideAngle: 15
+sideWidth: 0
+sideLength: 0
+colors: [FFA665, FFA665, FFA665]
+}}]

@@ -1,0 +1,9 @@
+type: Item
+name: Kvarniy crystal
+description: Durable, well conducts electric current
+cost: 5
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+color: 7884AB
+research: kvarniy

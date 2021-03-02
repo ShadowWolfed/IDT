@@ -1,0 +1,10 @@
+type: Item
+name: Emberite
+description: Hell
+cost: 5
+flammability: 2.0
+explosiveness: 0.2
+radioactivity: 0.6
+color: E19325
+hardness: 5
+research: surge-alloy

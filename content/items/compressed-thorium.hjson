@@ -1,0 +1,9 @@
+type: Item
+name: Compressed thorium
+description: I love thorium.
+cost: 5
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+color: F9A3C7
+research: thorium

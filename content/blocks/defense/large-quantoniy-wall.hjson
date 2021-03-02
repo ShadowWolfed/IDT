@@ -1,0 +1,15 @@
+type: Wall
+name: Large quantoniy wall
+description: Best wall.
+health: 25000
+chanceDeflect: 25
+absorbLasers: true
+lightningChance: 1
+lightningDamage: 50
+lightningLength: 20
+size: 2
+requirements: [
+kvarniy-crystal/2400
+kvarniy-core/1200
+]
+category: defense

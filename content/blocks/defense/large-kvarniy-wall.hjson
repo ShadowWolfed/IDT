@@ -1,0 +1,13 @@
+type: Wall
+name: Big kvarniy wall
+description: In this wall, quarniy crystals are bound by cores and placed at an angle that allows them to deflect most of the known projectiles.
+health: 6000
+chanceDeflect: 20
+absorbLasers: false
+size: 2
+requirements: [
+kvarniy-crystal/24
+kvarniy-core/12
+]
+category: defense
+research: kvarniy-wall

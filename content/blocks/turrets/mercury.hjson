@@ -1,0 +1,29 @@
+type: PowerTurret
+name: Mercury
+description: Archain.
+targetAir: true
+targetGround: true
+health: 1500
+size: 2
+inaccuracy: 5
+shootCone: 45
+reloadTime: 5
+recoil: 5
+rotateSpeed: 5
+shots: 1
+shotWidth: 3
+range: 160
+powerUse: 8.333334
+shootType: {
+type: LightningBulletType
+damage: 25
+lightningLength: 25
+},
+requirements: [
+kvarniy-crystal/50
+kvarniy-core/10
+phase-alloy/25
+]
+shootSound: spark
+category: turret
+research: arc

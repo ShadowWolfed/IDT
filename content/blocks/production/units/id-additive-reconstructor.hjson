@@ -1,0 +1,25 @@
+name: ID Additive Reconstructor
+type: Reconstructor
+size: 3
+consumes: {
+power: 3.2
+items: {
+items: [
+kvarniy-core/30
+kvarniy-crystal/40
+]}}
+constructTime: 900
+requirements: [
+kvarniy-core/75
+kvarniy-crystal/100
+kvarniy/200
+phase-alloy/175
+silicon/150
+]
+upgrades: [
+[
+phantom, jellyfish
+]
+]
+category: units
+research: additive-reconstructor

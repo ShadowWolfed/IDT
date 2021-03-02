@@ -1,0 +1,31 @@
+type: itemTurret
+name: Inferno
+description: A turret that shoots a stream of inferno, when it sees an enemy, starts shooting, gradually accelerating, when it does not see an enemy, it shoots at the point where the enemy was, gradually slowing down.
+targetAir: true
+targetGround: true
+health: 3000
+size: 3
+inaccuracy: 0
+reloadTime: 30
+recoil: 5
+burstSpacing: 30
+rotatespeed: 5
+shots: 100
+range: 200
+maxAmmo: 100
+ammoTypes: {
+emberite: {
+type: LiquidBulletType
+liquid: inferno
+damage: 25,
+knockback: 0
+ammoMultiplier: 25
+}},
+requirements: [
+furrynite/250
+phase-alloy/50
+metaglass/100
+]
+shootSound: none
+category: turret
+research: fuse

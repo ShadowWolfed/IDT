@@ -1,0 +1,7 @@
+name: Tirium
+description: D:BH.
+temperature: 0.01
+viscosity: 0.9
+heatCapacity: 1.5
+color: 80AAC2
+research: cryofluid

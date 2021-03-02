@@ -1,0 +1,9 @@
+type: Item
+name: Kvarniy core
+description: A soft, plastic substance, in nature, crystals are formed inside it under the influence of pressure, which slowly float to the surface
+cost: 10
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+color: BF3FB3
+research: kvarniy-crystal

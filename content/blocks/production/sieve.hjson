@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Sieve
+description: Test
+health: 500
+itemCapacity: 10
+liquidCapacity: 30
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+power: 0.833334
+liquid: water/0.1
+items:{
+items:[
+sand/5
+]}}
+requirements: [
+copper/100
+lead/75
+titanium/50
+graphite/100
+]
+category: crafting
+research: phase-alloy-forge
+outputItem: scrap/1

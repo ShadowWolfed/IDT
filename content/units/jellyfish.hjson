@@ -1,0 +1,84 @@
+name: Jellyfish
+speed: 3
+flying: true
+health: 5000
+range: 150
+engineOffset: 3
+engineSize: 2
+rotateSpeed: 10
+targetAir: true
+research: phantom
+weapons:[
+{
+name: jellyfish-weapon-2
+x: 10
+y: -10
+shootY: 6
+reload: 30
+ejectEffect: none
+recoil: 1
+shootSound: laser
+rotate: true
+mirror: true
+bullet: {
+type: SapBulletType
+sapStrength: 1
+length: 150
+damage: 50
+shootEffect: shootSmall
+hitColor: BF3FB3
+color: BF3FB3
+despawnEffect: none
+width: 0.7
+lifetime: 40
+knockback: 0
+}}
+{
+name: jellyfish-weapon-3
+x: 5
+y: -5
+shootY: 6
+reload: 20
+ejectEffect: none
+recoil: 1
+shootSound: laser
+rotate: true
+mirror: true
+bullet: {
+type: SapBulletType
+sapStrength: 1
+length: 150
+damage: 50
+shootEffect: shootSmall
+hitColor: BF3FB3
+color: BF3FB3
+despawnEffect: none
+width: 0.7
+lifetime: 40
+knockback: 0
+}}
+{
+name: jellyfish-weapon-4
+x: 0
+y: 0
+shootY: 6
+reload: 10
+ejectEffect: none
+recoil: 1
+shootSound: laser
+rotate: true
+mirror: true
+bullet: {
+type: SapBulletType
+sapStrength: 1
+length: 150
+damage: 50
+shootEffect: shootSmall
+hitColor: BF3FB3
+color: BF3FB3
+despawnEffect: none
+width: 0.7
+lifetime: 40
+knockback: 0
+}}
+]

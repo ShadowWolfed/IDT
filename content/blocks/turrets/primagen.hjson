@@ -1,0 +1,42 @@
+type: itemTurret
+name: Primagen
+description: Railgun.
+targetAir: true
+targetGround: true
+health: 4000
+size: 4
+inaccuracy: 0
+reloadTime: 120
+recoil: 120
+rotatespeed: 5
+shots: 1
+shotWidth: 3
+range: 600
+maxAmmo: 1
+ammoTypes: {
+kvarniy-crystal: {
+type: PointBulletType
+shootEffect: instShoot
+hitEffect: instHit
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+trailSpacing: 15
+splashDamage: 2500
+splashDamageRadius: 40
+buildingDamageMultiplier: 0.5
+speed: 50
+hitShake: 1
+ammoMultiplier: 1
+}}
+consumes: {
+power: 83.333334
+}
+requirements: [
+phase-alloy/250
+kvarniy-crystal/400
+furrynite/350
+]
+shootSound: shootBig
+category: turret
+research: foreshadow

@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Kvarniy extractor
+description: Extracts core from kvarniy.
+health: 100
+itemCapacity: 10
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+consumes: {
+power: 16.666667
+items:{
+items:[
+kvarniy/4
+]}}
+requirements: [
+phase-alloy/100
+kvarniy-crystal/50
+]
+category: crafting
+research: kvarniy-magnetizer
+outputItem: kvarniy-core/1

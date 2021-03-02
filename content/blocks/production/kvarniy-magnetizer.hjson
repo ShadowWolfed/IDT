@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Kvarniy magnetizer
+description: Extracts crystals from kvarniy.
+health: 100
+itemCapacity: 10
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 150
+updateEffect: smeltsmoke
+consumes: {
+power: 16.666667
+items:{
+items:[
+kvarniy/4
+]}}
+requirements: [
+phase-alloy/100
+kvarniy/100
+copper/2500
+]
+category: crafting
+research: phase-alloy-forge
+outputItem: kvarniy-crystal/1

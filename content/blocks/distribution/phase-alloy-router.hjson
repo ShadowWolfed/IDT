@@ -1,0 +1,11 @@
+type: Router
+name: Phase alloy router
+description: Better.
+size: 1
+speed: 1
+health: 400
+category: distribution
+requirements: [
+  phase-alloy/3
+]
+research: router

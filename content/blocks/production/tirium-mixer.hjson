@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Tirium mixer
+description: Test.
+health: 500
+itemCapacity: 10
+liquidCapacity: 30
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 180
+updateEffect: smeltsmoke
+consumes: {
+power: 16.666667
+items:{
+items:[
+furrynite/1
+]}
+liquid: {
+liquid: cryofluid
+amount: 0.2
+}}
+requirements: [
+furrynite/50
+metaglass/100
+lead/100
+titanium/100
+silicon/100
+]
+drawer: DrawMixer
+category: crafting
+research: cryofluid-mixer
+outputLiquid: tirium/6

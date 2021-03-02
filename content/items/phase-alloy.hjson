@@ -1,0 +1,9 @@
+type: Item
+name: Phase alloy
+description: Phase alloy combines the properties of plastanium, surge alloy and phase fabric.
+cost: 5
+flammability: 0.1
+explosiveness: 0.2
+radioactivity: 0.6
+color: EFC998
+research: surge-alloy

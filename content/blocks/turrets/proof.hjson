@@ -1,0 +1,33 @@
+type: itemTurret
+name: Proof
+description: Five arguments is enough for a good proof, but this is just the name of a shotgun that punches enemies through the ground.
+targetAir: true
+targetGround: true
+health: 10000
+size: 3
+inaccuracy: 0
+reloadTime: 60
+recoil: 10
+rotatespeed: 5
+shots: 5
+spread: 10
+range: 120
+maxAmmo: 5
+ammoTypes: {
+furrynite: {
+type: BasicBulletType
+speed: 28
+lifetime: 5
+pierce: true
+damage: 580
+width: 10
+height: 60
+ammoMultiplier: 1
+}},
+requirements: [
+furrynite/150
+phase-alloy/100
+]
+shootSound: shotgun
+category: turret
+research: fuse

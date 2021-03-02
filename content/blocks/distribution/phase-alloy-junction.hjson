@@ -1,0 +1,12 @@
+type: Junction
+name: Phase alloy junction
+description: Faster.
+size: 1
+speed: 5
+capacity: 10
+health: 300
+requirements: [
+  phase-alloy/2
+]
+category: distribution
+research: junction

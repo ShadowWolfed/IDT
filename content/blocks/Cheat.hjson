@@ -1,0 +1,11 @@
+{
+type: ItemSource
+Name: Cheat
+health: 1000000000
+description: UUDDLRLRBAS
+requirements: [
+copper/1
+],
+category: distribution
+research: copper
+}

@@ -1,0 +1,11 @@
+name: Kvarniy conveyor
+type: StackConveyor
+requirements: [
+kvarniy-crystal/3
+kvarniy-core/1
+]
+health: 500
+speed: 0.1
+itemCapacity: 64
+research: plastanium-conveyor
+category: distribution

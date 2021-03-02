@@ -1,0 +1,17 @@
+type: SingleTypeGenerator
+requirements: [
+phase-alloy/10
+phase-fabric/50
+]
+size: 2
+category: power
+consumes: {
+items: {
+items: [
+phase-fabric/1
+]}}
+itemDuration: 3600
+powerProduction: 1.666667
+hasLiquids: false
+hasItems: true
+research: solar-panel

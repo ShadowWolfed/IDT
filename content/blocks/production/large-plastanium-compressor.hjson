@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Large plastanium compressor
+description: Produces more plastanium for less resources.
+health: 100
+itemCapacity: 10
+liquidCapacity: 60
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+power: 8.333334
+liquid: oil/0.083334
+items:{
+items:[
+titanium/1
+]}}
+requirements: [
+phase-alloy/50
+lead/115
+graphite/60
+titanium/80
+silicon/80
+]
+category: crafting
+research: plastanium-compressor
+outputItem: plastanium/1

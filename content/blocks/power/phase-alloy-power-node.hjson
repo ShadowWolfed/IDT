@@ -1,0 +1,14 @@
+type: PowerNode
+name: Phase alloy power node
+health: 200
+size: 1
+maxNodes: 25
+laserRange: 20
+requirements: [
+	phase-alloy/15
+	silicon/20
+	plastanium/ 10
+	lead/10
+]
+research: surge-tower
+category: power

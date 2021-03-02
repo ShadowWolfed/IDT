@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Large alloy smelter
+description: Produces more surge alloy for less resources.
+health: 100
+itemCapacity: 10
+liquidCapacity: 60
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+power: 16.666667
+liquid: slag/0.1
+items:{
+items:[
+copper/4
+lead/5
+titanium/3
+silicon/4
+]}}
+requirements: [
+phase-alloy/50
+lead/80
+thorium/70
+silicon/80
+]
+category: crafting
+research: alloy-smelter
+outputItem: surge-alloy/2

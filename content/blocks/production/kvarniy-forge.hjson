@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Kvarniy forge
+description: Test
+health: 500
+itemCapacity: 5
+liquidCapacity: 0
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 240
+updateEffect: smeltsmoke
+consumes: {
+power: 16.666667
+items:{
+items:[
+silicon/1
+graphite/1
+titanium/1
+thorium/1
+]}}
+requirements: [
+phase-alloy/150
+]
+category: crafting
+research: alloy-smelter
+outputItem: kvarniy/1

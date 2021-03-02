@@ -1,0 +1,67 @@
+name: Olimp
+speed: 1
+flying: true
+health: 25000
+range: 240
+hitSize: 10
+engineOffset: 42
+engineSize: 15
+rotateSpeed: 10
+targetAir: true
+research: jellyfish
+weapons:[
+{
+name: olimp-laser
+x: 0
+y: 40
+shootY: 0
+reload: 30
+ejectEffect: none
+recoil: 0
+shots: 1
+shotDelay: 0
+inaccuracy: 0
+shootSound: laser
+rotate: false
+mirror: false
+bullet: {
+type: LaserBulletType
+damage: 100
+length: 240
+width: 20
+lifetime: 30
+largeHit: true
+shootEffect: none
+healPercent: 10
+collidesTeam: true
+sideAngle: 15
+sideWidth: 0
+sideLength: 0
+colors: [84F491, 84F491, 84F491]
+}}
+{
+name: olimp-cannon
+x: 15
+y: 15
+shootY: 10
+reload: 5
+ejectEffect: none
+recoil: 5
+shots: 1
+shotDelay: 0
+inaccuracy: 5
+shootSound: shootBig
+rotate: true
+mirror: true
+bullet: {
+type: BasicBulletType
+damage: 100
+speed: 8
+lifetime: 30
+splashDamage: 50
+splashDamageRadius: 40
+pierce: false
+width: 10
+height: 20
+}}
+]

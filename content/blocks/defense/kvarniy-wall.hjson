@@ -1,0 +1,13 @@
+type: Wall
+name: Kvarniy wall
+description: In this wall, quarniy crystals are bound by cores and placed at an angle that allows them to deflect most of the known projectiles.
+health: 2500
+chanceDeflect: 20
+absorbLasers: false
+size: 1
+requirements: [
+kvarniy-crystal/6
+kvarniy-core/3
+]
+category: defense
+research: phase-alloy-wall
